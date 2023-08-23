@@ -11,4 +11,4 @@
 
 ## 界面介绍
 ## 技术框架
-![尾巴翘流浪动物之家](https://file.tapd.cn/68678095/documents/preview/1168678095001000020)
+![尾巴翘流浪动物之家](https://github.com/pingdior/wxtailup/blob/main/%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%841.0.png)
