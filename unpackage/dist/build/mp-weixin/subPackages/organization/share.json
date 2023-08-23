@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "uni-section": "/components/uni-section/uni-section"
+  }
+}

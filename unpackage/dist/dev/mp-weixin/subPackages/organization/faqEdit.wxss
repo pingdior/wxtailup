@@ -1,0 +1,46 @@
+
+@charset "UTF-8";
+
+/* 头条小程序组件内不能引入字体 */
+page {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #fff;
+  min-height: 100%;
+  height: auto;
+}
+.uni-forms-item__inner {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0 !important;
+}
+.uni-forms-item__label {
+  width: 130rpx !important;
+}
+.uni-input-border,
+.uni-textarea-border {
+  flex: 1;
+  font-size: 14px;
+  color: #666;
+  border: none !important;
+}
+.uni-easyinput__content {
+  border: none !important;
+}
+.uni-error-message {
+  display: none !important;
+}
+.button-wrapper {
+  margin-top: 80rpx;
+  margin-bottom: 40rpx;
+}
+.button-wrapper button {
+  color: #fff;
+  font-size: 16px;
+  width: 480rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #64c8b3;
+  border-radius: 40rpx;
+}
+

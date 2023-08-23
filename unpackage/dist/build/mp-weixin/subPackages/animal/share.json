@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uni-section": "/components/uni-section/uni-section",
+    "hch-poster": "/subPackages/components/hch-poster/hch-poster"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-player": "plugin://myPlugin/player",
+    "tx-video": "plugin://tencentvideo/video"
+  }
+}

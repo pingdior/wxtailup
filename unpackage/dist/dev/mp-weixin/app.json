@@ -1,0 +1,84 @@
+{
+  "pages": [
+    "pages/tabBar/main/index",
+    "pages/tabBar/user/index",
+    "pages/user/editForm",
+    "pages/user/editFormItem"
+  ],
+  "subPackages": [
+    {
+      "root": "subPackages/",
+      "pages": [
+        "animal/details",
+        "animal/donate",
+        "animal/share",
+        "animal/animalEdit/newEdit",
+        "animal/animalEdit/editFormItem",
+        "animal/animalEdit/VideoUpload",
+        "animal/animalEdit/VideoPic",
+        "organization/details",
+        "organization/editForm",
+        "organization/editFormItem",
+        "organization/faqList",
+        "organization/faqEdit",
+        "organization/share",
+        "organization/adoptDetail",
+        "adopt/form",
+        "adopt/commit"
+      ]
+    }
+  ],
+  "window": {
+    "pageOrientation": "portrait",
+    "backgroundColorTop": "#F4F5F6",
+    "backgroundColorBottom": "#F4F5F6",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "尾巴翘",
+    "navigationBarBackgroundColor": "#000",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "color": "#aaaaaa",
+    "selectedColor": "#64C8B3",
+    "borderStyle": "black",
+    "backgroundColor": "#101013",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/main/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home_active.png",
+        "text": "毛孩"
+      },
+      {
+        "pagePath": "pages/tabBar/user/index",
+        "iconPath": "static/user.png",
+        "selectedIconPath": "static/user_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/tabBar/main/index": {
+      "network": "all",
+      "packages": [
+        "subPackages"
+      ]
+    }
+  },
+  "plugins": {
+    "myPlugin": {
+      "version": "0.1.2",
+      "provider": "wx116d0dd5e6a39ac7"
+    },
+    "tencentvideo": {
+      "version": "2.0.2",
+      "provider": "wxa75efa648b60994b"
+    }
+  },
+  "permission": {},
+  "usingComponents": {
+    "van-tab": "wxcomponents/vant/tab/index",
+    "van-tabs": "wxcomponents/vant/tabs/index",
+    "van-button": "wxcomponents/vant/button/index"
+  }
+}

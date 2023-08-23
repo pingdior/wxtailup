@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "成长记录",
+  "usingComponents": {
+    "my-player": "plugin://myPlugin/player",
+    "tx-video": "plugin://tencentvideo/video"
+  }
+}

@@ -1,0 +1,428 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------- */
+page {
+	height: 100%;
+}
+.page-main {
+	padding: 0;
+}
+.page-main .page-content {
+	position: fixed;
+}
+.page-main .tab-content {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 750rpx;
+	height: 88rpx;
+	z-index: 999;
+}
+.page-main .van-tabs__scroll.van-tabs__scroll--line {
+	background-color: transparent;
+}
+.page-main .vab-tab,
+.page-main .van-tab--active .van-ellipsis {
+	color: #fff;
+}
+.page-main .van-tabs__line {
+	background-color: #fff !important;
+}
+.page-main van-tab {
+	width: 750rpx;
+	height: 100px;
+}
+.page-main .van-ellipsis {
+	color: #fff;
+}
+.page-main video {
+	height: 100%;
+	width: 100%;
+}
+.page-main .swiper-container {
+	height: 100%;
+	overflow: hidden;
+}
+.page-main .video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.page-main .my-player {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.page-main .right-side {
+	width: 80rpx;
+	position: absolute;
+	top: 256rpx;
+	right: 23rpx;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+}
+.page-main .right-side icon {
+	line-height: 16px;
+	font-size: 34px;
+}
+.page-main .animal-avator {
+	height: 80rpx;
+	width: 80rpx;
+	border-radius: 50%;
+	border: 1px solid #fff;
+}
+.page-main .donate-cake {
+	width: 80rpx;
+	height: 80rpx;
+}
+.page-main .right-side-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10rpx;
+	margin-top: 10rpx;
+}
+.page-main .right-side-item-icon-wrapper {
+	position: relative;
+}
+.page-main .right-side-item-icon-wrapper .focus-wrapper {
+	position: absolute;
+	bottom: 0;
+	left: 22rpx;
+	background-color: #64c8b3;
+	/* border-radius: ; */
+	height: 28rpx;
+	width: 40rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8rpx;
+}
+.page-main .right-side-item-icon-wrapper .focus-icon {
+	position: relative;
+	top: -12rpx;
+	font-size: 10px;
+}
+.page-main .bottom-side {
+	position: absolute;
+	bottom: 0;
+	padding-left: 32rpx;
+	padding-right: 32rpx;
+	padding-bottom: 200rpx;
+	color: #fff;
+}
+.page-main .bottom-side .bottom-item {
+	height: 58rpx;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 24rpx;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	margin-bottom: 20rpx;
+	max-width: 360rpx;
+}
+.page-main .bottom-side .bottom-item .bottom-avator-wrapper {
+	height: 48rpx;
+	width: 48rpx;
+	margin-right: 12rpx;
+}
+.page-main .bottom-side .bottom-item .avator-image {
+	height: 48rpx;
+	width: 48rpx;
+	border-radius: 50%;
+}
+.page-main .bottom-side .bottom-item .bottom-name-wrapper {
+	display: flex;
+	align-items: center;
+}
+.page-main .bottom-side .bottom-side-description {
+	font-size: 12px;
+	height: 200rpx;
+	font-size: 12px;
+	font-family: PingFangSC-Semibold, PingFang SC;
+	font-weight: 600;
+	color: #FFFFFF;
+	line-height: 17px;
+	text-shadow: 0px 1px 2px rgba(102, 102, 102, 0.5);
+}
+.page-main .bottom-side .bottom-name {
+	white-space: nowrap;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 260rpx;
+	color:#FFB30D;
+}
+.page-main .bottom-side .icon-right {
+	font-size: 14px;
+	position: relative;
+	top: -2rpx;
+}
+

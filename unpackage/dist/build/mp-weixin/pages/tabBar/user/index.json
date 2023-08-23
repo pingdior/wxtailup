@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "user-page": "/pages/user/index"
+  }
+}

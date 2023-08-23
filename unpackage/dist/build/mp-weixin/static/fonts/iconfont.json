@@ -1,0 +1,114 @@
+{
+  "id": "2656246",
+  "name": "wx-tail",
+  "font_family": "iconfont",
+  "css_prefix_text": "",
+  "description": "尾巴翘",
+  "glyphs": [
+    {
+      "icon_id": "23944745",
+      "name": "icon-minus",
+      "font_class": "icon-minus",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "23943600",
+      "name": "icon-right",
+      "font_class": "icon-right",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "23259060",
+      "name": "close",
+      "font_class": "icon-close",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "22737943",
+      "name": "cake",
+      "font_class": "icon-cake",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "22737929",
+      "name": "dog",
+      "font_class": "icon-dog",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "22737930",
+      "name": "add",
+      "font_class": "icon-add",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "22737932",
+      "name": "heart",
+      "font_class": "icon-heart",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "22737934",
+      "name": "woman",
+      "font_class": "icon-woman",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "22737935",
+      "name": "warning",
+      "font_class": "icon-warning",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "22737936",
+      "name": "home",
+      "font_class": "icon-home",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "22737937",
+      "name": "share",
+      "font_class": "icon-share",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "22737938",
+      "name": "star",
+      "font_class": "icon-star",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "22737939",
+      "name": "dog-plain",
+      "font_class": "icon-dog-plain",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "22737940",
+      "name": "man",
+      "font_class": "icon-man",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "22737941",
+      "name": "cat",
+      "font_class": "icon-cat",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    }
+  ]
+}

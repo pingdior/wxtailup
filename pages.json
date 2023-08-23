@@ -1,0 +1,168 @@
+{
+	"pages": [{
+			"path": "pages/tabBar/main/index",
+			"style": {
+				"mp-weixin": {
+					"usingComponents": {
+						// #ifdef MP-WEIXIN
+						"my-player": "plugin://myPlugin/player",
+						"tx-video": "plugin://tencentvideo/video"
+						// #endif
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/user/index"
+		},
+		{
+			"path": "pages/user/editForm"
+		},
+		{
+			"path": "pages/user/editFormItem"
+		}
+	],
+	"subPackages": [{
+		"root": "subPackages/",
+		"pages": [{
+				"path": "animal/details"
+			},
+			{
+				"path": "animal/donate",
+				"style": {
+					"navigationBarTitleText": "送稀罕"
+				}
+			},
+			{
+				"path": "animal/share"
+			},
+			{
+				"path": "animal/animalEdit/newEdit"
+			},
+			{
+				"path": "animal/animalEdit/editFormItem"
+			},
+			{
+				"path": "animal/animalEdit/VideoUpload",
+				"style": {
+					"navigationBarTitleText": "发布视频"
+				}
+			},
+			{
+				"path": "animal/animalEdit/VideoPic",
+				"style": {
+					"navigationBarTitleText": "成长记录",
+					"mp-weixin": {
+						"usingComponents": {
+							// #ifdef MP-WEIXIN
+							"my-player": "plugin://myPlugin/player",
+							"tx-video": "plugin://tencentvideo/video"
+							// #endif
+						}
+					}
+				}
+			},
+			{
+				"path": "organization/details",
+				"style": {
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "organization/editForm"
+			},
+			{
+				"path": "organization/editFormItem"
+			},
+			{
+				"path": "organization/faqList"
+			},
+			{
+				"path": "organization/faqEdit"
+			},
+			{
+				"path": "organization/share"
+			},
+			{
+				"path": "organization/adoptDetail"
+			},
+			{
+				"path": "adopt/form"
+			},
+			{
+				"path": "adopt/commit",
+				"style": {
+					"navigationBarTitleText": "领养协议"
+				}
+			}
+		]
+	}],
+	// "subPackages": {
+	// 	"root": "pages/template",
+	// 	"path": "ucharts/ucharts",
+	// 	"style": {
+	// 		"navigationBarTitleText": "uCharts 图表"
+	// 	}
+	// },
+"preloadRule": {
+        "pages/tabBar/main/index": {
+            "network": "all",
+            "packages": ["subPackages"]
+        }
+    },
+"globalStyle": {
+	"pageOrientation": "portrait",
+	"backgroundColorTop": "#F4F5F6",
+	"backgroundColorBottom": "#F4F5F6",
+	"navigationBarTextStyle": "white",
+	"navigationBarTitleText": "尾巴翘",
+	"navigationBarBackgroundColor": "#000",
+	"backgroundColor": "#f8f8f8",
+	"mp-360": {
+		"navigationStyle": "custom"
+	},
+	"h5": {
+		"maxWidth": 1190,
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F1F1F1"
+	},
+	"usingComponents": {
+		"van-tab": "wxcomponents/vant/tab/index",
+		"van-tabs": "wxcomponents/vant/tabs/index",
+		"van-button": "wxcomponents/vant/button/index"
+	}
+},
+"tabBar": {
+	"color": "#aaaaaa",
+	"selectedColor": "#64C8B3",
+	"borderStyle": "black",
+	"backgroundColor": "#101013",
+	"list": [{
+			"pagePath": "pages/tabBar/main/index",
+			"iconPath": "static/home.png",
+			"selectedIconPath": "static/home_active.png",
+			"text": "毛孩"
+		},
+		{
+			"pagePath": "pages/tabBar/user/index",
+			"iconPath": "static/user.png",
+			"selectedIconPath": "static/user_active.png",
+			"text": "我的"
+		}
+	]
+},
+"plugins": {
+	"myPlugin": {
+		"version": "0.1.2",
+		"provider": "wx116d0dd5e6a39ac7"
+	}
+},
+"condition": { //模式配置，仅开发期间生效
+	"current": 0, //当前激活的模式(list 的索引项)
+	"list": [{
+		"name": "animalVideoFlow", //模式名称
+		"path": "pages/tabBar/main/index", //启动页面，必选
+		"query": "" //启动参数，在页面的onLoad函数里面得到
+	}]
+}
+}

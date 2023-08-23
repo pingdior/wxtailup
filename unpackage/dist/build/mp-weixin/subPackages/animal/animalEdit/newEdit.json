@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uni-forms": "/components/uni-forms/uni-forms",
+    "uni-forms-item": "/components/uni-forms-item/uni-forms-item"
+  }
+}

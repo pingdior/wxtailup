@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "iconfont";
+  /* src: url('iconfont.woff2?t=1630232411011') format('woff2'),
+       url('iconfont.woff?t=1630232411011') format('woff'),
+       url('iconfont.ttf?t=1630232411011') format('truetype'); */
+  src: url("~@/static/fonts/iconfont.ttf");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-minus:before {
+  content: "\e68a";
+}
+
+.icon-right:before {
+  content: "\e689";
+}
+
+.icon-close:before {
+  content: "\e688";
+}
+
+.icon-cake:before {
+  content: "\e687";
+}
+
+.icon-dog:before {
+  content: "\e67b";
+}
+
+.icon-add:before {
+  content: "\e67c";
+}
+
+.icon-heart:before {
+  content: "\e67d";
+}
+
+.icon-woman:before {
+  content: "\e67f";
+}
+
+.icon-warning:before {
+  content: "\e680";
+}
+
+.icon-home:before {
+  content: "\e681";
+}
+
+.icon-share:before {
+  content: "\e682";
+}
+
+.icon-star:before {
+  content: "\e683";
+}
+
+.icon-dog-plain:before {
+  content: "\e684";
+}
+
+.icon-man:before {
+  content: "\e685";
+}
+
+.icon-cat:before {
+  content: "\e686";
+}

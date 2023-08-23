@@ -1,0 +1,1 @@
+.w-page{padding:16rpx 32rpx;background-color:#fff;height:auto}input{border-radius:8rpx;color:#9ba1aa;border:1px solid #dbdbdc;height:72rpx;font-size:14px;line-height:72rpx;padding:0 15rpx}textarea{border-radius:8rpx;color:#9ba1aa;border:1px solid #dbdbdc;font-size:14px;padding:2rpx 15rpx;box-sizing:border-box}

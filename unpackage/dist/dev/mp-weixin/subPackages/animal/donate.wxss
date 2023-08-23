@@ -1,0 +1,163 @@
+
+.page-donate {
+	background: #f7f7f7;
+	box-sizing: border-box;
+	padding: 48rpx;
+	text-align: center;
+	position: relative;
+}
+.page-donate-title {
+	font-size: 18px;
+	color: #303741;
+	line-height: 1;
+}
+.page-donate-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.page-donate-item {
+	background-color: #fff;
+	width: 48%;
+	margin-top: 48rpx;
+	height: 430rpx;
+	display: flex;
+	flex-direction: column;
+	border-radius: 8px;
+}
+.image-box,
+.number-box {
+	flex: 1;
+}
+.image-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* padding: 14rpx 52rpx 16rpx; */
+}
+.donate-cake0 {
+	width: 96rpx;
+	height: 94rpx;
+}
+.donate-cake1 {
+	width: 156rpx;
+	height: 120rpx;
+}
+.donate-cake2 {
+	width: 204rpx;
+	height: 134rpx;
+}
+.donate-cake3 {
+	width: 204rpx;
+	height: 186rpx;
+}
+.number-box {
+	font-size: 16px;
+	padding: 0 32rpx 62rpx;
+}
+.font-number {
+	font-size: 26px;
+	font-family: PingFangSC-Semibold, PingFang SC;
+	font-weight: 600;
+}
+.page-donate-footer {
+	margin-top: 18rpx;
+	font-size: 12px;
+	color: #9ba1aa;
+}
+button {
+	color: #fff;
+	font-size: 14px;
+	/* width: 480rpx; */
+	height: 64rpx;
+	line-height: 64rpx;
+	background: #64c8b3;
+	border-radius: 40rpx;
+}
+.donate-success-dialog {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+.donate-success-dialog .dialog-content {
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.donate-success-dialog .cake-box {
+	position: relative;
+	width: 496rpx;
+	height: 498rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.donate-success-dialog .cake-box .cake-bg {
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	-webkit-animation: turn 10s linear infinite;
+	        animation: turn 10s linear infinite;
+}
+@-webkit-keyframes turn {
+0% {
+		-webkit-transform: rotate(0deg);
+}
+25% {
+		-webkit-transform: rotate(90deg);
+}
+50% {
+		-webkit-transform: rotate(180deg);
+}
+75% {
+		-webkit-transform: rotate(270deg);
+}
+100% {
+		-webkit-transform: rotate(360deg);
+}
+}
+@keyframes turn {
+0% {
+		-webkit-transform: rotate(0deg);
+}
+25% {
+		-webkit-transform: rotate(90deg);
+}
+50% {
+		-webkit-transform: rotate(180deg);
+}
+75% {
+		-webkit-transform: rotate(270deg);
+}
+100% {
+		-webkit-transform: rotate(360deg);
+}
+}
+.donate-success-dialog .cake-box .cake {
+	width: 238rpx;
+	height: 240rpx;
+	z-index: 1;
+}
+.donate-success-dialog .donate-num-box {
+	display: flex;
+	flex-direction: column;
+	font-size: 16px;
+	color: #fff;
+}
+.donate-success-dialog .icon-close {
+	margin-top: 56rpx;
+	font-size: 24px;
+}
+

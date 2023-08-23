@@ -1,0 +1,1 @@
+<image style="width:750rpx;height:2621rpx;background-color:#eeeeee;" mode="{{aspectFill}}" src="{{imgUrl}}" data-event-opts="{{[['error',[['imageError',['$event']]]]]}}" binderror="__e"></image>

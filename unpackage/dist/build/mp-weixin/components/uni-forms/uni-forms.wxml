@@ -1,0 +1,1 @@
+<view class="{{['uni-forms','data-v-b5234fe2',(!border)?'uni-forms--top':'']}}"><form data-event-opts="{{[['submit',[['submitForm',['$event']]]],['reset',[['resetForm',['$event']]]]]}}" catchsubmit="__e" bindreset="__e" class="data-v-b5234fe2"><slot></slot></form></view>

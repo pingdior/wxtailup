@@ -1,0 +1,340 @@
+
+.page-animal-share.container {
+	/* background-color: #f2f2f2; */
+	min-height: 100%;
+	padding-bottom: 120rpx;
+	display: block;
+}
+.swiper-container {
+	width: 750rpx;
+	position: relative;
+}
+.swiper_box {
+	width: 100%;
+	height: 100%;
+}
+swiper-item image {
+	width: 100%;
+	display: inline-block;
+	overflow: hidden;
+	height: 100%;
+}
+.swiper-container .dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20rpx;
+	display: flex;
+	justify-content: center;
+}
+.swiper-container .dots .dot {
+	margin: 0 8rpx;
+	width: 14rpx;
+	height: 14rpx;
+	background: #fff;
+	border-radius: 50%;
+	transition: all 0.6s;
+	opacity: 0.5;
+}
+.swiper-container .dots .dot.active {
+	width: 14rpx;
+	opacity: 1;
+}
+.page-body {
+	position: relative;
+}
+.avatar {
+	height: 160rpx;
+	width: 160rpx;
+	border-radius: 50%;
+	top: -80rpx;
+	left: 32rpx;
+	position: absolute;
+}
+.page-body .page-body-navbar {
+	padding-left: 200rpx;
+}
+.page-body-navbar button {
+	border-radius: 18px;
+	font-size: 12px;
+	height: 72rpx;
+	line-height: 72rpx;
+}
+.page-body-navbar .button-middle {
+	width: 320rpx;
+}
+.page-body-navbar .button-right {
+	width: 132rpx;
+	padding: 0;
+	margin-left: 32rpx;
+	border: 1px solid #dbdbdc;
+}
+.page-body-info-block {
+	background-color: #fff;
+	padding-top: 68rpx;
+}
+.page-body-info {
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 20rpx;
+}
+.page-body-info__top {
+	display: flex;
+}
+.page-body-user {
+	display: flex;
+	align-items: center;
+}
+.user-age {
+	font-size: 20rpx;
+}
+.page-body-user>text+text {
+	margin-left: 12rpx;
+}
+.user-healthy {
+	padding: 2rpx 10rpx;
+}
+.user-status {
+	border-radius: 12px;
+	border: 1px solid #dbdbdc;
+}
+.user-status text {
+	position: relative;
+	display: inline-block;
+	padding: 2rpx 10rpx;
+}
+.user-status text+text::after {
+	display: inline-block;
+	position: absolute;
+	content: "";
+	width: 1rpx;
+	height: 18rpx;
+	background-color: #dbdbdc;
+	left: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+.page-body-fence {
+	display: flex;
+	/* width: 343px; */
+	height: 90rpx;
+	line-height: 90rpx;
+	border-radius: 8px;
+}
+.page-body-fence view {
+	width: 33.33%;
+	text-align: center;
+}
+.page-body-fence .font-bold {
+	margin-right: 8rpx;
+}
+.w-content {
+	padding: 16rpx;
+	background-color: #f5f5f5;
+}
+.page-animal-share .warning-box {
+	height: 60rpx;
+	line-height: 60rpx;
+	text-align: center;
+	font-size: 14px;
+	padding-left: 32rpx;
+	padding-right: 22rpx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.page-animal-share .warning-box .warning-item {
+	display: flex;
+	align-items: center;
+}
+.page-animal-share .warning-box .icon-right {
+	font-size: 14px !important;
+	margin-left: 6rpx;
+}
+.page-animal-share .warning-box .icon-warning {
+	font-size: 16px !important;
+	margin-right: 4rpx;
+}
+.page-animal-share .warning-box icon {
+	line-height: 1;
+	display: flex;
+	align-items: center;
+}
+.base-wrapper {
+	display: flex;
+	margin-bottom: 24rpx;
+	border-bottom: 1px solid #e5e6e7;
+}
+.base-avator {
+	height: 80rpx;
+	width: 80rpx;
+	border-radius: 50%;
+	margin-right: 16rpx;
+	margin-top: 16rpx;
+	margin-bottom: 16rpx;
+}
+.base-name-wrapper {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+.base-name {
+	font-size: 14px;
+	font-family: PingFangSC-Semibold, PingFang SC;
+	font-weight: 600;
+	color: #303741;
+	margin-top: 32rpx;
+}
+.base-des {
+	font-size: 12px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #9ba1aa;
+}
+.base-des text+text {
+	margin-left: 8rpx;
+}
+.base-part {
+	display: flex;
+	margin-top: 30rpx;
+}
+.base-part .base-part-item {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 12px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #9ba1aa;
+}
+.base-part .base-part-item+.base-part-item {
+	border-left: 1px solid #e5e6e7;
+}
+.base-part .base-part-number {
+	font-size: 16px;
+	font-family: PingFangSC-Semibold, PingFang SC;
+	font-weight: 600;
+	color: #303741;
+}
+.feature-box {
+	font-size: 14px;
+	color: #545966;
+	line-height: 21px;
+	font-family: PingFangSC-Regular, PingFang SC;
+}
+.feature-name {
+	font-weight: 600;
+	margin-right: 32rpx;
+}
+.uni-section {
+	font-family: PingFangSC-Semibold, PingFang SC;
+	color: #303741;
+	height: auto !important;
+	padding: 0 !important;
+	background-color: #fff !important;
+	margin-top: 8rpx;
+	margin-bottom: 10rpx;
+}
+.uni-section__content-title {
+	font-weight: 600;
+	font-size: 18px !important;
+}
+.uni-section__head-tag {
+	background-color: #64c8b3 !important;
+}
+.page-bottom-btns button {
+	flex: 1;
+	font-size: 16px;
+	height: 80rpx;
+	line-height: 80rpx;
+	border-radius: 20px;
+	/* font-family: PingFangSC-Semibold, PingFang SC; */
+}
+.page-bottom-btns button+button {
+	margin-left: 30rpx;
+}
+.page-animal-share .w-icon {
+	width: 40rpx;
+	height: 40rpx;
+}
+.page-animal-share .page-bottom-btns {
+	padding: 16rpx 32rpx;
+	position: fixed;
+	background-color: #64c8b3;
+	box-shadow: 1px 1px 1px #000;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+}
+.page-animal-share .page-bottom-btns .w-link {
+	/* flex: 0.25; */
+	font-size: 16px;
+	color: #545966;
+	background: initial;
+	height: 80rpx;
+	line-height: 80rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.page-animal-share .page-bottom-btns .w-link+.w-link {
+	/* margin-left: 60rpx; */
+}
+.font12 {
+	font-size: 12px;
+}
+.color-text2 {
+	color: #9ba1aa;
+}
+.list-wrapper {
+	display: flex;
+}
+.list-wrapper .list-image-wrapper {
+	position: relative;
+}
+.list-wrapper .list-image {
+	display: block;
+	width: 160rpx;
+	height: 160rpx;
+	border-radius: 4px;
+}
+.list-wrapper .list-image-text {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 28rpx;
+	padding: 2rpx 4rpx;
+	text-align: center;
+	line-height: 28rpx;
+	background: #000000;
+	color: #fff;
+	border-radius: 3px;
+	opacity: 0.4;
+	font-size: 10px;
+	padding-left: 8rpx;
+	padding-right: 8rpx;
+}
+.list-wrapper .list-info-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 24rpx;
+	padding-top: 6rpx;
+	padding-bottom: 1rpx;
+}
+.list-wrapper .list-info-tilte {
+	height: 21px;
+	font-size: 15px;
+	font-family: PingFangSC-Semibold, PingFang SC;
+	font-weight: 600;
+	color: #303741;
+	line-height: 21px;
+}
+.list-wrapper .list-info-des {
+	display: flex;
+}
+
