@@ -10,5 +10,12 @@
 | 使用端：普通用户 | 同上 | 操作：打赏领养申请关注、取消关注分享主页视频浏览简介浏览 | 一 操作：关注、取消关注分享主页毛孩子列表浏览简介浏览领养和答疑浏览成为或取消基地、小窝月连续打赏人 二 留言消息：关注小程序和服务号后，管理员回复提醒 三 数据权限：平台和基地，取大 | 一 操作：关注、取消关注分享主页毛孩子列表浏览简介浏览领养和答疑浏览 二 留言消息：关注小程序和服务号后，管理员回复提醒 三 数据权限：平台和基地，取大 | 一 操作：领养申请 二 消息：关注小程序和服务号后，收到领养申请情况消息 | 操作：成为或取消基地、小窝月连续打赏人 |
 
 ## 界面介绍
+三个页面展示：尾巴翘首页、二虎的主页和给毛孩子礼物的窝
+<figure class="third">
+    <img src="https://github.com/pingdior/wxtailup/blob/main/%E5%B0%BE%E5%B7%B4%E7%BF%98%E9%A6%96%E9%A1%B5.jpg" width=20% alt="尾巴翘首页">
+    <img src="https://github.com/pingdior/wxtailup/blob/main/%E4%BA%8C%E8%99%8E%E7%9A%84%E4%B8%BB%E9%A1%B5.jpg" width=20% alt="二虎的主页">
+    <img src="https://github.com/pingdior/wxtailup/blob/main/%E7%BB%99%E6%AF%9B%E5%AD%A9%E5%AD%90%E7%A4%BC%E7%89%A9%E7%9A%84%E7%AA%9D.jpg" width=20% alt="给毛孩子礼物的窝">
+</figure>
+
 ## 技术框架
 ![尾巴翘流浪动物之家](https://github.com/pingdior/wxtailup/blob/main/%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%841.0.png)
