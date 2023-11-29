@@ -78,7 +78,7 @@
                 },
                 "share" : {
                     "weixin" : {
-                        "appid" : "wx61d6095ded284aec",
+                        "appid" : "",
                         "UniversalLinks" : ""
                     }
                 }
@@ -106,7 +106,7 @@
     },
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "wx61d6095ded284aec",
+        "appid" : "",
         "setting" : {
             "urlCheck" : false,
             "minified" : true,
@@ -120,11 +120,11 @@
         "plugins" : {
             "myPlugin" : {
                 "version" : "0.1.2",
-                "provider" : "wx116d0dd5e6a39ac7"
+                "provider" : ""
             },
             "tencentvideo" : {
                 "version" : "2.0.2",
-                "provider" : "wxa75efa648b60994b"
+                "provider" : ""
             }
         }
     },
